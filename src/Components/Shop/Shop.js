@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import WebpageName from '../WebpageName/WebpageName';
 import './Shop.css';
 const Shop = () => {
 const [products,setProducts]=useState([]);
@@ -27,8 +28,14 @@ const handleAddToCart=(product)=>{
 }
 
     return (
+      <div>
+         
+           <WebpageName></WebpageName>
+        
         <div className='shop_conatiner'>
+          
          <div className="products_container">
+         
             {
               products.map(product=><Product
                key={product._id}
@@ -43,6 +50,7 @@ const handleAddToCart=(product)=>{
           timeBreak={savedTimeBreak}
           ></Cart>
          </div>
+       </div>
        </div>
     );
 };

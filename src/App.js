@@ -1,7 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 import {ExtraTask, ExtraTask1, ExtraTask2 } from './Components/ExtraTask/ExtraTask';
+
 import Shop from './Components/Shop/Shop';
+
+
 
 function App() {
 

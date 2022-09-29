@@ -1,0 +1,13 @@
+.webpageName{
+   margin-left: 140px;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+}
+.webpageName h1{
+    color: purple;
+}
+.icon{
+    margin-left: 20px;
+}

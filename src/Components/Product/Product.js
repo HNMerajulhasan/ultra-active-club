@@ -1,5 +1,14 @@
 import React from 'react';
 import './Product.css';
+
+//  const WebPageName = () => {
+//      return (
+//          <div className='extra_task'>
+//           dfsdgsh
+//          </div>
+//      );
+//  };
+
 const Product = (props) => {
  const {name,age,img,time}=props.product; 
  const{handleAddToCart,product}=props;
@@ -17,7 +26,8 @@ const Product = (props) => {
          </button>
 
         </div>
+       
     );
 };
 
-export default Product;
+export  default Product;
