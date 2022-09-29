@@ -20,3 +20,54 @@
     margin-right: 10px;
     
 }
+.personal_info{
+    display: flex;
+    justify-content: space-between;
+    background-color: chartreuse;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.personal_info h3{
+  margin-right: 35px;
+  margin-left: 35px;
+}
+.add_break h4{
+  font-size: 1.5rem;
+}
+.exercise_details{
+    margin-top: 45px;
+}
+.exercise_details h4{
+    background-color: aqua;
+    padding:15px;
+    border-radius: 10px;
+}
+.exer_time{
+    margin-right: 20px;
+    font-size:1.5rem;
+}
+.added_time{
+    font-size: 1.2rem;
+}
+.break_time h2{
+    background-color: aqua;
+    padding:15px;
+    border-radius: 10px;
+}
+.act_comp_toast{
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.act_comp_toast p{
+   color: bisque;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+.act_comp_toast:hover{
+    background-color:hotpink;
+}
+.act_comp_toast:hover p{
+    color:yellow;
+}
