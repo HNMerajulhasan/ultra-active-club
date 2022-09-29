@@ -1,5 +1,5 @@
 .webpageName{
-   margin-left: 140px;
+   margin-left: 15px;
    margin-top: 50px;
    display: flex;
    align-items: center;
@@ -7,8 +7,8 @@
 }
 .webpageName h1{
     color: purple;
-    margin:10px;
+
 }
 .icon{
-    margin-left: 20px;
+    
 }
