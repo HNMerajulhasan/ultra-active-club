@@ -1,0 +1,22 @@
+.full_sidebar{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btn-1{
+   
+    margin-right: 5px;
+   padding: 10px;
+   
+}
+.img_name{
+    display: flex;
+    align-items:center ;
+}
+.img_name img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
