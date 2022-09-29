@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import {ExtraTask, ExtraTask1, ExtraTask2 } from './Components/ExtraTask/ExtraTask';
+import Shop from './Components/Shop/Shop';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Shop></Shop>
+      <ExtraTask></ExtraTask>
+      <ExtraTask1></ExtraTask1>
+      <ExtraTask2></ExtraTask2>
     </div>
   );
 }
