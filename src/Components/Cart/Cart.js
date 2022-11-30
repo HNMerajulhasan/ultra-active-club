@@ -4,6 +4,7 @@ import MyImage from './gym.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+//side bar cart
 const Cart = ({cart,addTimeBreak,timeBreak}) => {
 
 
